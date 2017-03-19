@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity"
+    android:background="#4657bf">
+
+    <ImageView
+        android:src="@drawable/fivap_splash"
+        android:layout_width="177dp"
+        android:layout_height="252dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Цитаты \n Кирилла Фывапова"
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:textColor="#f0f0f0"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="© 2016 wpston"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#a9a9a9" />
+</FrameLayout>

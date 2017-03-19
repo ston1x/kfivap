@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BioActivity"
+    android:background="#e1e1e1">
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   Кто такой Кирилл Фывапов?"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- -   <!- -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ka4"
+        android:cropToPadding="false"
+        android:baselineAlignBottom="true" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="\n \n Кирилл Фывапов - это выдающийся бодибилдер, бизнесмен, а также генератор замечательных и неповторимых мыслей и идей."
+      android:id="@+id/textView10"
+      android:layout_below="@+id/imageView4"
+      android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/fivap_biznes"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Этот раздел ещё не оптимизирован до нормального состояния, потому вы видите много свободного места."
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ВСЕ ЦИТАТЫ КИРИЛЛА"
+      android:id="@+id/button5"
+      android:layout_alignBottom="@+id/imageView5"
+      android:layout_alignRight="@+id/textView10"
+      android:layout_alignEnd="@+id/textView10"
+      android:layout_marginBottom="20dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:onClick="kfivapQuotesVK" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="КИРИЛЛ ВКОНТАКТЕ"
+      android:id="@+id/button6"
+      android:layout_alignBottom="@+id/imageView5"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_alignRight="@+id/button5"
+      android:layout_alignEnd="@+id/button5"
+      android:onClick="kfivapVK" />
+
+</LinearLayout>
+  </ScrollView>

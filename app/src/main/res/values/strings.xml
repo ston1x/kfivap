@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FivapQuotes2</string>
+
+
+    <string name = "action_share">Поделиться</string>
+    <string name = "action_biography">item1</string>
+        <string name = "action_donate">item2</string>
+    <string name = "action_about">item3</string>
+    <string name = "action_stickers">item4</string>
+    <string name = "action_exit">item5</string>
+    <string name="about_program">Цитаты Фывапа v 1.3.1 \n by wpston</string>
+    <string name="donate_text">Пожертвуйте разработчику на шоколадку. \nА если Вы совсем щедры, то можно и на абонемент в качалочку :) \n\n Реквизиты WebMoney:</string>
+</resources>
